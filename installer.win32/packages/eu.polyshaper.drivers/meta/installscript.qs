@@ -26,6 +26,6 @@ Component.prototype.createOperations = function()
 
 		// New syntax for pnptool, not sure it works on older windows, using the legacy one
 		//component.addElevatedOperation("Execute", pnputil, "/add-driver", "/install", "@TargetDir@\\drivers\\arduino.inf");
-		component.addElevatedOperation("Execute", pnputil, "-a", "-i", "@TargetDir@\\drivers\\arduino.inf");
+		component.addElevatedOperation("Execute", pnputil, "-i", "-a", "@TargetDir@\\drivers\\arduino.inf");
 	}
 }
