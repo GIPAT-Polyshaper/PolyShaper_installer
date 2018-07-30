@@ -9,6 +9,10 @@
     - run: C:/Qt/5.11.1/mingw53_32/bin/windeployqt.exe --qmldir /c/Users/tomas/Desktop/ShaCo/ShaCo/qml ShaCo.exe
     - do the steps above to create the 7zip file and the installer
 
+- On MacOSX use macdeployqt instead of windeployqt:
+
+[...]/Qt/5.11.1/clang_64/bin/macdeployqt ShaCo.app -qmldir=/Users/flavioprattico/ShaCo/ShaCo/qml/
+
 - Possible command to install drivers: USE pnptools (see driver script)
 
 
