@@ -5,10 +5,7 @@
     <Title>PolyShaper Software</Title>
     <Publisher>GIPAT</Publisher>
     <ProductUrl>http://www.polyshaper.eu</ProductUrl>
-    <InstallerWindowIcon>installerIcon.png</InstallerWindowIcon>
     <Logo>logo.png</Logo>
-    <RunProgram>@TargetDir@/ShaCo</RunProgram>
-    <RunProgramDescription>Run ShaCo now</RunProgramDescription>
     <StartMenuDir>PolyShaper</StartMenuDir>
     <TargetDir>@ApplicationsDir@/PolyShaper</TargetDir>
 </Installer>
