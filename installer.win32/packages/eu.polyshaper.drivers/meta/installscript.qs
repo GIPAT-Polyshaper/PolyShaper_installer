@@ -24,8 +24,9 @@ Component.prototype.createOperations = function()
 			pnputil = windir + "\\sysnative\\pnputil.exe";
 		}
 
-		// New syntax for pnptool, not sure it works on older windows, using the legacy one
+		// New syntax for pnptool, not sure it works on older windows, using the legacy one. The 259 exit code
+		// should be the one returned when driver is already installed
 		//component.addElevatedOperation("Execute", pnputil, "/add-driver", "/install", "@TargetDir@\\drivers\\arduino.inf");
-		component.addElevatedOperation("Execute", pnputil, "-i", "-a", "@TargetDir@\\drivers\\arduino.inf");
+		component.addElevatedOperation("Execute", "{0,259}", pnputil, "-i", "-a", "@TargetDir@\\drivers\\arduino.inf");
 	}
 }
