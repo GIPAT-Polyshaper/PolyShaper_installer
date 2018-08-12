@@ -13,7 +13,7 @@ MACDEPLOYQT="/Users/flavioprattico/Qt/5.11.1/clang_64/bin/macdeployqt"
 ARCHIVEGEN="/Users/flavioprattico/Qt/Tools/QtInstallerFramework/3.0/bin/archivegen"
 BINARYCREATOR="/Users/flavioprattico/Qt/Tools/QtInstallerFramework/3.0/bin/binarycreator"
 
-VERSION="0.9"
+VERSION="1.0.0"
 
 rm -fr installer.macosx/PolyShaper*.app
 

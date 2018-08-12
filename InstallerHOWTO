@@ -12,3 +12,10 @@
 
 - On MacOSX use macdeployqt instead of windeployqt:
 [...]/Qt/5.11.1/clang_64/bin/macdeployqt ShaCo.app -qmldir=/Users/flavioprattico/ShaCo/ShaCo/qml/
+
+On version update change:
+- VERSION in updateMacOsXInstaller.sh and updateWin32Installer.sh
+- <Version> in config.xml for operating systems
+- <Version> and <ReleaseDate> in all package.xml of all packages
+
+Current version: 1.0.0, release date: 2018-08-16

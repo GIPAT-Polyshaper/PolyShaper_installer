@@ -14,7 +14,7 @@ WINDEPLOYQT="C:/Qt/5.11.1/mingw53_32/bin/windeployqt.exe"
 ARCHIVEGEN="C:/Qt/Tools/QtInstallerFramework/3.0/bin/archivegen"
 BINARYCREATOR="C:/Qt/Tools/QtInstallerFramework/3.0/bin/binarycreator"
 
-VERSION="0.9"
+VERSION="1.0.0"
 
 rm -f installer.win32/PolyShaper*.exe
 

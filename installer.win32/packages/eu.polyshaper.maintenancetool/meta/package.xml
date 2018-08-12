@@ -3,7 +3,7 @@
     <DisplayName>Maintenance Tool</DisplayName>
     <Description>PolyShaper Software Maintenance Tool</Description>
     <Version>1.0.0</Version>
-    <ReleaseDate>2018-07-08</ReleaseDate>
+    <ReleaseDate>2018-08-16</ReleaseDate>
     <Name>eu.polyshaper.maintenancetool</Name>
     <Default>true</Default>
     <ForcedInstallation>true</ForcedInstallation>
